@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+}
+nav:hover{
+    background-color: white;
+}
+header{
+    background-image: url("./1-1658836440_e22b34e778a0d0cc8f59.webp"); 
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+.menu a{
+    text-decoration:none;
+    color: black;
+    margin-right: 30px;
+}
+.visit1{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.text1{
+    position:relative;
+    text-align: center;
+    justify-content: center;
+    height: 30vh;
+    width: 100%;
+    background-color:lightgray;
+    padding-top: 50px;
+}
+.visit:hover{
+    transform: scale(1.05);
+}
+.visit{
+    position: absolute;
+    display: flex;
+    margin-top: 20px;
+    
+    
+}
+.text2{
+    position: absolute;
+    z-index: 1;
+}
+.text2{
+    color: white;
+    position: absolute;
+    margin-top: 350px;
+   
+}
+.arrow:hover{
+    transform: scale(1.05);
+    color: yellow;
+}
+.arrow{
+    position: absolute;
+    padding-top: 20px;
+    text-decoration: none;
+    color: white;
+}
+@keyframes animation {
+    from{background-image: url("./1-1658836440_e22b34e778a0d0cc8f59.webp");}
+    to{background-image: url("./img1.webp");}
+    
+
+} 
+/* @keyframes animation {
+    0%{
+        content: url("./1-1658836440_e22b34e778a0d0cc8f59.webp");
+    }
+    20%{
+        content: url("./img1.webp");
+    }
+    40%{
+        content: url("./thanjai.webp");
+    }
+} */
